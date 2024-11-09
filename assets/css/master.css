@@ -1,0 +1,61 @@
+/* whatsapp conectivity */
+/* fixed button */
+  /* Fixed button styles */
+  .fixed-enquiry-btn {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: var(--brand-color);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .fixed-enquiry-btn:hover {
+    background-color: darkred;
+  }
+
+  .modal-header {
+    background-color: var(--brand-color);
+    color:white;
+  }
+
+  .modal-footer .btn{
+    background-color:var(--brand-color);
+    color: white;
+  }
+  .btn-brand {
+    background-color: var(--brand-color);
+    color: #fff;
+  }
+
+  .btn-brand:hover {
+    background-color: darkred;
+    color: #fff;
+  }
+
+  .form-label {
+    color: var(--brand-blue);
+  }
+  .modal-body {
+    max-height: 70vh; /* Set max height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+  }
+
+.fixed-buttons{
+    position: fixed;
+    right: -1px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fixed-buttons img{
+    width: 50px;
+  }
+  
+
